@@ -7,6 +7,32 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <!-- page content -->
-  </body>
+    <script>
+
+    var   text = prompt( 'შეიყვანეთ "L123 ან  $123  ფორმატით"','')
+    var b = text.length
+    var  cifrebi=text.substring(1,b);
+  
+    
+     if((text.indexOf("L"))==0 ) 
+     
+      {
+       var  dolari = cifrebi*2.6;
+       alert(dolari);
+     }
+     else
+      if((text.indexOf('$'))==0)
+     {
+       var lari =cifrebi/(2.6)
+      alert(lari);
+     }
+     else  alert('გთხოვთ  შეიყვანოთ მნიშვნელობა სწორი ფორმატით')
+    
+
+
+    /* 3.	L303 დაწერეთ სკრიპტი რომელიც ფასს, შეყვანილს სტრიქონით სახით ფორმატით {currency}price, 
+       გადაიყვანს საპირისიპირო ვალუტაში (თუ მოცემულია ლარებში გადაიყვანს 
+      დოლარებში და პირიქით) კურსთი 1დოლარი = 2.6 ლარს. მაგალითი: $10 პასუხი 26, L26 პასუხი $10*/
+ </script>
+      </body>
 </html>

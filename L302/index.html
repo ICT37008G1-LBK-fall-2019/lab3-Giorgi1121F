@@ -7,6 +7,15 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <!-- page content -->
-  </body>
+    <script>
+    /* 2.	L302 დაწერეთ სკრიპტი რომელიც შეყვანილ სტრიქონს, თუ მისი სიგრძე აჭარბებს 15 სიმბოლოს, 
+    მოაჭრის ზედმეტ ნაწილს და მის ნაცვლად მიადგავს ... 
+    მაგალითად: “some very long text” გადაიქცევა “some very ...” */
+    var  teqsti = prompt( ' შეიყვანეთ ტექსტი!','')
+    if( teqsti.length<=15)  alert( teqsti)
+    else {teqsti_1 = teqsti.substring(0,15);
+     alert(teqsti_1)}
+  
+  </script>
+   </body>
 </html>
